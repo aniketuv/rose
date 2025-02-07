@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Day 2024 | Celebrate Love 🌹</title>
+    <meta name="description" content="3D Rose Day Experience: Countdown, Music & Personalized Love Messages">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="themeToggle">🌙</div>
+    <div class="container">
+        <canvas id="roseCanvas"></canvas>
+        <h1>Rose Day 2024</h1>
+        <div class="timer" id="timer"></div>
+        
+        <div class="message-box">
+            <input type="text" id="userName" placeholder="Your Name">
+            <textarea id="customMessage" placeholder="Type a personal message..."></textarea>
+            <button class="btn" id="saveMessage">Save Message 💾</button>
+        </div>
+
+        <button class="btn" id="surpriseBtn">Unlock Surprise 🔑</button>
+        <button class="btn" id="shareBtn">Share Love 💌</button>
+        <audio id="backgroundMusic" loop>
+            <source src="assets/background-music.mp3" type="audio/mpeg">
+        </audio>
+        <button class="btn" id="musicToggle">🎵 Toggle Music</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
